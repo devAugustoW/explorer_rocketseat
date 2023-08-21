@@ -1,6 +1,6 @@
 # Git e Github
 <div style="display: flex; justify-content: center; align-items: center;"> 
-    <img src="./02_spa_universe/assets/readmeImg.jpg">
+    <img src="">
 </div>
 
 ## Git
@@ -35,14 +35,20 @@
 
 ## Github
 ### Conteúdo
-🔸 ; <br>
-🔸 ; <br>
-🔸 ; <br>
-🔸 ; <br>
-🔸 ; <br>
-🔸 ; <br>
-🔸 ; <br>
-🔸 . <br>
+🔸 O que é o Github; <br>
+🔸 Criando uma conta; <br>
+🔸 Perfil público; <br>
+🔸 Página do usuário; <br>
+🔸 Criando repositório; <br>
+🔸 Git Push; <br>
+🔸 Git Ignore; <br>
+🔸 Git Keep; <br>
+🔸 Histórico remoto; <br>
+🔸 Git Clone; <br>
+🔸 Git Pull; <br>
+🔸 README; <br>
+🔸 Mudar visibilidade; <br>
+🔸 Apresentando o Cheat Sheet. 
 
 
 ### Aprendizado
