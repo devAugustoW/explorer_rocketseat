@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIT</title>
+</head>
+<body>
+    <h1>Comandos</h1>
+
+    <p>
+    .git init  ==>  Inicializa o git na pasta do projeto;
+
+	.git config --global user.name "Augusto"  ==>  Define o nome do usuário
+
+	.git config --global user.email "augusto--ficticio@gmail.com  ==>  Define o email do usuário
+
+	.git config --list => Lista  ==>  Lista o conteúdo da configuração do usuário (end + 'q')
+
+
+	.git add .  ==> Adiciona as mudanças feitas ao próximo stage 
+
+	.git commit -m "created index.js"  ==> Adiciona as mudanças ao repósitório Git com uma descrição
+
+
+	.git log  ==>  Retorna o log de commits ('q')
+
+	.git log --online  ==>  Retorna o log de commits de forma resumida
+
+	.git log -n 3  ==> Retorna lista com os últimos 3 commits 
+
+
+
+	INICIAR O REPOSITÓRIO  
+
+		-->  DIRETÓRIO DE TRABALHO (.git add .)  
+
+			-->  STAGE AREA (.git commit -m)  
+
+				-->  REPOSITÓRIO (foi para o log do Git)
+
+
+	.git status  ==>  Retorna em estado da(s) última(s) modificações do projeto
+
+	.git diff  ==>  Retorna um log (histórico) das últimas mudanças 
+
+
+	.git restore .  ==>  Desfaz as mudanças feitas no WORKING DIRECTORY
+
+	.git restore --satage .  ==>  Volta o status do projeto de STAGE para O WORKING DIRECTOR
+
+	.git commit --amend -m "nova descrição do commit"  ==> Modifica a descrição do último commit
+
+	.git reset --soft HEAD~1  ==>  Desfaz o último commit e volta para o WORKING DIRECTOR
+
+
+	.git remote add origin git@github.com:devaugustow/...  ==>  Linka o repositório do Github a pasta do projeto
+
+	.git push -u origin main  ==>  Sincroniza o repositório do Github com o repositório do Git
+
+	.git push  ==>  Após feito o .git push -u pode fazer somente .git push
+
+
+	.gitiginore  ==>  Arquivo do Git que ignora os arquivos que desejar
+
+	.git keep  ==>  Mantém no projeto pastas que estejam vazias
+
+
+	.git clone link_SSH  ==>  Clona o repositório do Github referente ao link_SSH na máquina
+
+	.git pull  ==>  Baixa na máquina as atualizações do repositório no Github.
+    </p>
+</body>
+</html>

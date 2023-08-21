@@ -1,6 +1,6 @@
 # Git e Github
 <div style="display: flex; justify-content: center; align-items: center;"> 
-    <img src="">
+    <img src="./assets/git-github-readme.png">
 </div>
 
 ## Git
@@ -52,23 +52,15 @@
 
 
 ### Aprendizado
-🔹 ; <br>
-🔹 ; <br>
-🔹 ; <br>
-🔹 ; <br>
-🔹 ; <br>
-🔹 ; <br>
+🔹 Criar um perfil no Github; <br>
+🔹 Criar repositório local e remoto; <br>
+🔹 Principais comando de Git; <br>
+🔹 Utilizar o gitiginore; <br>
+🔹 Fazer um README bem apresentado; <br>
+🔹 Diferença entre o git clone e download; <br>
+🔹 Buscar alterações feitas no repositório remoto; <br>
 
-### Projetos
-🚀 [](URL_do_link)<br>
-🚀 [](URL_do_link)<br>
-
-<ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Javascript</li>
-    <li>Node JS</li>
-</ul>
+<br>
 
 # 🤝 Contribuições
  <p align="jistify">Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue para relatar problemas ou sugerir melhorias.</p>

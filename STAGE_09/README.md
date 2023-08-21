@@ -1,6 +1,6 @@
-# Backend
+# Frontend
 <div style="display: flex; justify-content: center; align-items: center;"> 
-    <img src="./02_spa_universe/assets/readmeImg.jpg">
+    <img src="">
 </div>
 
 ## Git
@@ -21,7 +21,7 @@
 🔹 ; <br>
 🔹 ; <br>
 🔹 ; <br>
-🔹 ; <br>
+🔹 . <br>
 
 
 ### Projetos
@@ -48,7 +48,7 @@
 🔹 ; <br>
 🔹 ; <br>
 🔹 ; <br>
-🔹 ; <br>
+🔹 . <br>
 
 ### Projetos
 🚀 [](URL_do_link)<br>

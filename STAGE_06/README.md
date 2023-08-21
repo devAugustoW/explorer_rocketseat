@@ -59,6 +59,9 @@
 🚀 [Github Favorites](URL_do_link)<br>
 🚀 [Git Fav](URL_do_link)<br>
 
+<br>
+
+# 🚀 Tecnologias
 <ul>
     <li>HTML</li>
     <li>CSS</li>
