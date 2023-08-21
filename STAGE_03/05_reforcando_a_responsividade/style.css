@@ -1,0 +1,113 @@
+:root {
+    --ff-text: 'monospace', 'Sans serif';
+    --ff-button: 'Source Serif 4', 'Sans serif';
+
+    --bg-body: #F9F4FB; 
+    --bg-button: #a54328b6;
+
+    --fc-text: #A54328;
+    --fc-button: #FFFFFF;
+
+    font-size: 62.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: var(--ff-text);
+
+    color: var(--fc-text);
+    
+}
+main {
+    padding: 2rem;
+    width: clamp(32rem, 100%, 45rem);
+    margin-inline: auto;
+
+    padding: 5.5rem 4rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.descriptive img {
+    width: 100%;
+    margin-bottom: 3.2rem;
+   
+}
+
+
+.revenue {
+
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.revenue ul {
+    padding-left: 2.4rem;
+    margin-bottom: 2rem;
+}
+.revenue ol {
+    padding-left: 2.4rem;
+    margin-bottom: 3rem;
+}
+
+h1, h2 {
+    font-size: clamp(2.8rem, 2vw + 1rem, 4rem);
+    line-height: clamp(3.6rem, 2vw + 1rem, 5rem);
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+h3 {
+    font-size: clamp(2rem, 2vw + 1rem, 2.5rem);
+}
+
+p, li {
+    font-size: clamp(1.6rem, 1vw + .5rem, 2.2rem);
+    line-height: clamp(2.2rem, 1vw + .5rem, 3rem);
+    text-align: justify;
+    
+}
+
+button {
+    font-family: var(--ff-button);
+    background-color: var(--bg-button);
+    color: var(--fc-button);
+    border: none;
+    border-radius: 4px;
+
+    padding: 1rem;
+}
+
+@media (min-width: 770px) {
+    main {
+        width: clamp(77rem, 100%, 120rem);
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+        justify-content: space-between;
+    }
+
+    main div {
+        width: clamp(38.5rem, 100%, 60rem);
+    }
+
+    .revenue {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    button {
+        width: 35%;
+        margin-left: 1.5rem;
+    }
+}

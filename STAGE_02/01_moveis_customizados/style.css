@@ -1,0 +1,88 @@
+:root{
+    --font-color-1: #7d7987;
+    --font-color-2: #FF9900;
+    --font-color-3: #FFA434;
+    --border-color: #ECEFF2;
+
+    --font-family-1: 'Inter', 'Sans-serif';
+    --font-family-2: 'Open Sans', 'Sans-serif';
+
+    font-size: 62.5%
+}
+
+
+body {
+    max-width: 59.2rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+main {
+    max-width: 59.2rem;
+
+    text-align: center;
+}
+
+main img {
+    width: clamp(26.8rem, 90%, 34.8rem);
+    height: 22.3rem;
+    margin: 0 auto 7.2rem;
+}
+
+.hero {
+    max-width: 58.8rem;
+    margin: 0 auto;
+}
+.hero h1 {
+    font-family: var(--font-family-1);
+    font-size: 4.9rem;
+    font-weight: 700;
+    margin-bottom: 3.2rem;
+}
+.hero h1 span {
+    color: var(--font-color-2);
+    text-shadow: 
+        -1px -1px 0 black, /* Sombra superior esquerda */
+         1px -1px 0 black,  /* Sombra superior direita */
+        -1px 1px 0 black,  /* Sombra inferior esquerda */
+         1px 1px 0 black;   /* Sombra inferior direita */
+}
+.hero p {
+    font-family: var(--font-family-2);
+    font-size: 1.4rem;
+    color: var(--font-color-1);
+    
+}
+.hero p span {
+    color: var(--font-color-3);
+}
+
+
+footer {
+    max-width: 55.2rem;    
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+
+    margin-top: 7.2rem;
+    border-top: 1px solid var(--border-color);
+
+
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    padding-top: 1rem;
+    color: var(--font-color-2);
+}
+
+.yellow-balls{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

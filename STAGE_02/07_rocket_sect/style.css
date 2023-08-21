@@ -1,0 +1,138 @@
+:root {
+    --ff-text-01: 'JetBrains Mono', 'Monospace', 'Sans Serif';
+    --ff-text-02: 'Open Sans', 'sans-serif';
+
+    --fc-primary: #FFFFFF;
+    --fc-secondary: #00BFA6;
+    --fc-text-01: #C2C2C2;
+    --fc-text-02: #7D7987;
+    --bc-primary: #2C2B3D;
+
+    font-size: 62.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bc-primary);
+    min-width: 100vw;
+    min-height: 100vh;
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   padding: 0 2rem;
+
+    color: var(--fc-primary);
+}
+
+.container {
+    width: clamp(88rem, 90%, 108.3rem);
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 10.1rem;
+}
+
+.logo img{
+    width: 16.8rem;
+}
+
+nav {
+    height: 3rem;
+    
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+    
+    font-family: var(--ff-text-01);
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2.8rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--fc-primary);
+    font-size: 1.4rem;
+    transition: font-size .3s;
+    cursor: pointer;
+}
+nav ul li a:hover {
+    filter: brightness(.5);
+    font-size: 1.8rem;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 10.5rem;
+}
+.text {
+    text-align: center;
+}
+.text h1{
+    font-family: var(--ff-text-01);
+    font-size: 3.6rem;
+    margin-bottom: 5.9rem;
+}
+.text h1 span {
+    color: var(--fc-secondary);
+}
+.text p {
+    font-family: var(--ff-text-02);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    color: var(--fc-text-02);
+}
+.first-p {
+    margin-bottom: 2.8rem;
+}
+.text p span {
+    font-weight: 800;
+    color: var(--fc-text-01);
+}
+
+footer {
+    border-top: 1px solid var(--fc-secondary);
+    width: 56.8rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2.7rem;
+
+}
+
+footer p{
+    font-family: var(--fc-text-01);
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    color: var(--fc-primary);
+}
+
+footer p a {
+    text-decoration: none;
+    color: var(--fc-primary);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.padlock-footer {
+    position: fixed;
+    bottom: 3px;
+    right: 5px;
+}

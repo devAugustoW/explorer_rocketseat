@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">   
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Github Favorities</title>
+
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <img src="assets/Gitfav.svg" alt="logo do github favorities">
+            
+            <div class="search">
+                <label class="sr-only" for="input-search">Digite o Github do usuário que quer favoritar</label>
+                <input type="text" id="input-search" placeholder="Digite o Github do usuário que quer favoritar">
+                <button><i class="fas fa-star"></i>Favoritar</button>
+            </div>
+        </header>
+
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="thUser">User</th>
+                        <th>Repositories</th>
+                        <th>Followers</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody class="tbodyNoUser hide">
+                    <tr>
+                        <td colspan="4" class="colspan-cell">
+                            <div class="center-content">
+                                <img src="assets/Estrela.svg" alt="estrela">
+                                <span>Nenhum favorito ainda</span>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+
+                <tbody class="tbodyUser">
+                    <tr>
+                        <td class="user">
+                            <img src="https://github.com/devaugustow.png" alt="foto github devaugustow">
+                            <a href="https://github.com/devaugustow" target="_blank">
+                                <p>Augusto Dantas</p>
+                                <span>/devaugustow</span>
+                            </a>
+                        </td>
+
+                        <td class="Repos">10</td>
+                        <td class="Followers">03</td>
+                        <td class="action">Remover</td>
+                    </tr>
+
+                    <tr>
+                        <td class="user">
+                            <img src="https://github.com/devaugustow.png" alt="foto github devaugustow">
+                            <a href="https://github.com/devaugustow" target="_blank">
+                                <p>Augusto Dantas</p>
+                                <span>/devaugustow</span>
+                            </a>
+                        </td>
+                        <td class="Repos">10</td>
+                        <td class="Followers">03</td>
+                        <td class="action">Remover</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

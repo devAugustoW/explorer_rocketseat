@@ -1,0 +1,272 @@
+:root {
+    --ff-text: 'Mulish', 'Sans serif';
+
+    --fc-title: #B52184;
+    --fc-text: #312D64;
+    --fc-button: #FFFFFF;
+    --fc-footer: #FFFFFF;
+
+    --bg-body: #F9F4FB;
+    --bg-header: #F9F4FB;
+    --bg-main: #312D64;
+    --bg-card: #FFFFFF;
+    --bg-form: #F9F4FB;
+    --bg-button: #312D64;
+    --bg-footer: #312D64;
+
+    font-size: 62.5%;
+}
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 99vw;
+    min-height: 100vh;
+    font-family: var(--ff-text);
+    align-items: center;
+    overflow-x: hidden;  
+    background-color: var(--bg-body); 
+}
+
+header {
+    width: clamp(40.4rem, 100vw, 129rem);
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 1rem;
+}
+.astronaut {
+    width: 100%;
+    height: 37rem;  
+    margin-bottom: 1.7rem;
+}
+.astronaut img {
+    height: 100%;
+}
+.header-text {
+    width: 100%;
+    text-align: center;
+}
+.header-text h1 {
+    font-size: 3.2rem;
+    font-weight: 900;
+    line-height: 4rem;
+    font-family: var(--ff-text);
+    color: var(--fc-title);
+
+    margin-bottom: .5rem;
+}
+.header-text p {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    color: var(--fc-text);
+
+    margin-bottom: 3.5rem;
+}
+.header-text img {
+    margin-bottom: 9rem;
+}
+
+main {
+    width: clamp(40.4rem, 100vw, 129rem);
+    margin: 0 auto;
+}
+.conteiner-cards {
+    padding: 5.3rem 3.9rem;
+    background-color: var(--bg-main);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    width: clamp(35.2rem, 100%, 50.2rem);
+    min-height: 20rem;
+    padding: 2.6rem 4rem ;
+    margin-bottom: 5rem;
+    border-radius: 2rem;
+    background-color: var(--bg-card);
+}
+.card img {
+    width: 8rem;
+    margin-bottom: 3.3rem;
+}
+.card h2 {
+    font-size: 2.9rem;
+    font-weight: 900;
+    line-height: 3.7rem;
+    color: var(--fc-title);
+
+    margin-bottom: 1.9rem;
+}
+.card p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.conteiner-form { 
+    background-color: var(--bd-form);
+    height: auto;
+}
+form {
+    padding: 5.3rem 3.9rem 0;
+    background-color: var(--bg-form)
+}
+legend {
+    font-size: 3.2rem;
+    font-weight: 900;
+    line-height: 4rem;
+    color: var(--fc-title);
+
+    margin-bottom: 4.3rem;
+}
+.input-wrapper {
+    position: relative;
+    margin-bottom: 2.4rem;
+} 
+.input-wrapper label {
+    position: absolute;
+    top: 1.3rem;
+    left: .8rem;
+}
+.input-wrapper input,
+.input-wrapper textarea {  
+    width: 100%;  
+
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: .09rem;
+    color: var(--fc-text);
+
+    border-radius: 1.6rem;
+    margin-bottom: 2.4rem;   
+}
+.input-wrapper input{
+    padding: 1.6rem 0 1.6rem 3.8rem;
+}
+.input-wrapper textarea {
+    padding: 1.6rem 1.6rem 1rem 1rem;
+    border: 2px solid;
+}
+.label-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+input::placeholder {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 100%;
+    color: var(--fc-text);
+}
+textarea::placeholder {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 100%;
+    color: var(--fc-text);
+}
+.form-background {
+    display: none;
+}
+button{
+    display: inline-block;
+    padding: 1.2rem 1.6rem;
+    border: none;
+    border-radius: 12px;
+    background-color: var(--bg-button);
+    color: var(--fc-button);
+    cursor: pointer;
+    margin-bottom: 6.5rem;
+}
+
+footer{
+    width: clamp(40.4rem, 100vw, 129rem);
+    margin: 0 auto;
+    background-color: var(--bg-footer);
+    text-align: center;
+    padding: 1.6rem;
+}
+footer p {
+    font-size: 1.9rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    color: var(--fc-footer);
+}
+
+@media (min-width: 780px) {
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: left;
+
+        padding: 0 1rem;
+        padding: 0 3.9rem;
+    }
+    .astronaut {
+        height: 100%
+    }
+    .astronaut img {
+        width: clamp(35rem, 100%, 189rem);
+    }
+    .header-text {
+        width: 100%;      
+        text-align: left;
+    }
+    .header-text h1 {
+        font-size: clamp(4.2rem, 3vw + 1rem, 6.2rem);
+        line-height: clamp(4.6rem, 3vw + 1rem, 6.8rem);
+        margin-top: 30%;
+        margin-bottom: .8rem;
+    }
+    .header-text p {
+        font-size: clamp(1.4rem, 2vw + 1rem, 2.4rem);
+        line-height: clamp(3.2rem, 2vw + 1rem, 3.8rem);
+        margin-bottom: 15%;
+    }
+    .header-text img {
+        width: 9%;
+    }
+
+    .conteiner-cards {
+        display: flex;
+        flex-direction: row;
+        gap: 6rem;
+    }
+    .card {
+        padding: 3.2rem 1.6rem;
+        align-self: stretch;
+    }
+
+    .conteiner-form {
+        display: flex;
+    }
+    form{
+        width: 100%;
+    }
+    .form-background {
+        display: block;
+        width: 100%;
+        height: 68.1rem;
+        background-color: var(--bg-form);
+    }
+    .form-background img {
+        width: 100%;
+        height: 100%;
+    }
+
+    footer {
+        padding: 3.2rem 0;
+    }
+}

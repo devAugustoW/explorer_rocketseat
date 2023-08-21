@@ -1,0 +1,104 @@
+:root {
+    --fc-timer: #323238;
+    --bg-card: #E1E1E6;
+    --bg-cardHover: #C9C9C9;
+    --bg-cardSelected: #02799D;
+    --bg-cardSelectedHover: #006483;
+    --bg-body: #fff;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-body);
+    width: 99vw;
+    height: 99vh;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 571px;
+    margin: 130px auto;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.display {
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    color: var(--fc-timer);
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+.btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: opacity .1s;
+}
+.btn img{
+    width: 80%;
+}
+.btn:hover {
+    opacity: .7;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    margin-right: 30px;
+}
+
+.card {
+    cursor: pointer;
+    background-color: var(--bg-card);
+    border-radius: 30px;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+}
+.card:hover {
+    background-color: var(--bg-cardHover);
+}
+
+
+.card.cardSelected {
+    background-color: var(--bg-cardSelected);
+}
+.card.cardSelected:hover {
+    background-color: var(--bg-cardSelectedHover);
+}
+.card.cardSelected img {
+    filter: brightness(0%) invert(100%);
+}
+
+#checkbox1,
+#checkbox2,
+#checkbox3,
+#checkbox4 {
+    position: absolute;
+    visibility: hidden;
+}

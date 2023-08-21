@@ -1,0 +1,166 @@
+:root {
+    --ff-text: 'Roboto', 'Sans serif';
+
+    --bg-body: #070F3A;
+    --bg-main: #FFFFFF;
+    --bg-error: #F03E3E;
+    --bg-input: rgba(73, 80, 87, 0.3);
+    --bg-button: #02799D;
+    --bg-button-hover: #055a74;
+    --bg-modal: #1e1e1ead;
+
+    --fc-title: #0C3440;
+    --fc-text: #000000;
+    --fc-input: #00453A;
+    --fc-placeholder: rgba(73, 80, 87, 0.5);
+    --fc-button: #FFFFFF;
+    --fc-error: #FFFFFF
+
+    --bc-borderInput: rgba(73, 80, 87, 0.6);
+    
+
+    font-size: 62.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hide {
+    display: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg-body);
+
+    font-family: var(--ff-text);
+    font-size: 1.6rem;
+    color: var(--fc-text);
+
+    position: relative;
+
+}
+
+.screen-error {
+    background-color: var(--bg-error);
+    text-align: center;
+    padding: 1rem;
+
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    transform: translateY(-40px);
+    transition: transform .9s;
+}
+.screen-error.appear {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+    transition: transform .9s;
+}
+
+.screen-error h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+    color: #FFFFFF;  
+}
+
+main {
+    background-color: var(--bg-main);
+    max-width: 42.8rem;
+    padding: 2.8rem 6.4rem 4rem;
+    border-radius: 6px;
+
+    margin: auto;
+    transform: translateY(55%);
+}
+.screen1 h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 4rem;
+    color: var(--fc-title);
+    margin-bottom: 1.5rem;
+}
+.input-wrapp {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.6rem;
+}
+.input-wrapp label {
+    margin-bottom: 0.8rem;
+}
+.input-wrapp input {
+    width: 100%;
+    height: 5.2rem;
+    background: var(--bg-input);
+    border-radius: 4px;
+    border: 1px solid var(--bc-borderInput);
+    padding-left: 1.6rem;
+    font-size: 1.8rem;
+    color: var(--fc-input);
+}
+.screen1 button {
+    width: 100%;
+    height: 5.2rem;
+    padding: 1.6rem;
+    background: #02799D;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--fc-button);
+
+    border: none;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    gap: .8rem;
+    
+    cursor: pointer;
+    margin-top: 1.8rem;
+}
+.screen1 button:hover {
+    background: var(--bg-button-hover);
+}
+
+.modal-container {
+    background-color: var(--bg-modal);
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    left: 0;   
+}
+.modal {
+    background-color: var(--bg-main);
+    max-width: 38rem;
+    height: 22.2rem;
+    padding: 10rem 4rem;
+    text-align: center;
+    border-radius: 8px;
+    margin: 16rem auto;
+    transform: translateY(45%);
+}
+.modal img {
+    position: absolute;
+}
+.modal h2 {
+    font-size: 3.4rem;
+    margin-bottom: 12rem;
+}
+#modalBtnClose {
+    position: absolute;
+    top: 1.6rem;
+    right: 1.6rem;  
+    cursor: pointer;
+    transition: transform .3s;
+}
+#modalBtnClose:hover {
+    transform: scale(1.2);
+}

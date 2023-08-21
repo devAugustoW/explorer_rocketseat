@@ -1,0 +1,77 @@
+:root {
+    --bg-screen: #FFFFFF;
+    --bg-body: linear-gradient(90deg, #CBCC8E, #87E06C9A 90%); 
+    --bg-input: #c9ca9f4d;
+    --bg-button: rgba(153, 205, 50, 0.534);
+    --bg-button-hover: rgba(153, 205, 50, 0.747);
+
+    font-size: 62.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hide {
+    display: none;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: var(--bg-body); 
+    display: grid;
+    place-items: center;
+    font-family: sans-serif;
+}
+
+main {
+    padding: 1.5rem;
+}
+
+.screen-1, .screen-2 {
+    background-color: var(--bg-screen);
+    padding: 4.8rem 6.4rem 6rem;
+    border-radius: 10px;
+    text-align: center;
+
+    margin-top: -14rem;
+}
+.screen-1 h1, .screen-2 h2{
+    font-size: clamp(4.6rem, 3vw + 2rem, 5.4rem);
+    font-weight: 600;
+
+    margin-bottom: 4rem;
+}
+.screen-1 p {
+    font-size: clamp(2.5rem, 3vw + 2rem, 3rem);
+    font-weight: 500;
+
+    margin-bottom: 8rem;
+}
+.input-wrapp {
+    display: flex;
+    justify-content: center;
+}
+.input-wrapp input {
+    width: 12rem;
+    border: none;
+    background-color: #c9ca9f4d;
+    border-radius: 6px 0 0 6px;
+    font-size: 3.5rem;
+    text-align: center;
+}
+button {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 2.5rem 3rem;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: rgba(153, 205, 50, 0.534); 
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgba(153, 205, 50, 0.747);
+}
+.screen-2 button{
+    border-radius: 6px
+}

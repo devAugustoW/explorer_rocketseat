@@ -1,0 +1,140 @@
+:root {
+    --ff-text-01: 'Mulish', 'Sans Serif';
+    --ff-text-02: 'Open Sans', 'Sans Serif';
+    --ff-button: 'DM Sans', 'Sans Serif';
+
+    --fc-nav: #1F1534;
+    --fc-text-01: #000000;
+    --fc-text-02: #89C5CC;
+    --fc-text-03: #7D7987;
+    --fc-button: #F9F9F9;
+
+    --bc-button: #69B99D;
+    --bc-button-hover: #4cac8a;
+
+    font-size: 62.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 2rem;
+
+    background: linear-gradient(180deg, rgb(227, 255, 248,0)82%, rgba(227, 255, 248,0.38)100%);
+}
+
+header {
+    width: clamp(45rem, 90%, 100.5rem);
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7.3rem auto 5.8rem;
+}
+header img {
+    width: 10.3rem;
+    height: 2.5rem;
+}
+header nav ul {
+    display: flex;
+    gap: 4.8rem;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-family: var(--ff-text-01);
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--fc-nav);
+    transition: font-weight .2s;
+    cursor: pointer;
+}
+header nav ul li a:hover{
+    font-weight: 700;
+}
+main {
+    width: clamp(85rem, 90%, 100.5rem);
+    height: auto;
+    margin: 0 auto;
+}
+section {
+    display: flex;
+}
+.text h1 {
+    width: clamp(38rem, 90%, 48.9rem);
+    font-family: var(--ff-text-01);
+    font-size: 4.9rem;
+    margin: 3rem 0 4rem;
+}
+.text h1 span {
+    color: var(--bc-button);
+}
+.text p {
+    width: clamp(37rem, 90%, 40.9rem);
+    font-family: var(--ff-text-02);
+    font-size: 1.4rem;
+    color: var(--fc-text-03);
+}
+.text button {
+    margin-top: 4rem;
+    background-color: var(--bc-button);
+    color: var(--fc-button);
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 1.5rem 3.2rem 1.5rem 3.2rem;
+
+    border: none;
+    border-radius: 4px;
+
+    cursor: pointer;
+    transition: background-color .2s;
+}
+.text button:hover {
+    background-color: var(--bc-button-hover);
+}
+
+.image-section {
+    width: clamp(10rem, 50%, 41rem);
+    height: auto;
+}
+
+
+footer {
+    width: clamp(45rem, 90%, 100.5rem);
+    height: auto;
+    margin: 8.2rem auto 0;
+    text-align: center;
+    
+}
+footer p {
+    font-family: var(--ff-text-02);
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--fc-text-03);
+}
+footer p a {
+    text-decoration: none;
+    color: var(--fc-text-01);
+    transition: font-size 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+footer p a:hover {
+    font-size: 1.6rem;
+    
+}
+
+.footer-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,168 @@
+@charset "UTF-8";
+:root {
+    --ff-text-01: 'Staatliches', 'Sans serif';
+    --ff-text-02: 'Poppins', 'Sans serif';
+
+    --bg-body: #FAFAFC;
+    --bg-header: #535971;
+    --bg-form: #FFFFFF;
+    --bg-input: #FAFAFC;
+
+    --fc-header: #FFFFFF;
+    --fc-legend: #535971;
+    --fc-h2: #4E4958;
+    --fc-span: #C1BCCC;
+    --fc-input: #AEAEB1;
+
+    --bc-border: #E6E6F0;
+
+
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, legend, button{
+    font-family: var(--ff-text-01);
+    font-weight: normal;
+    text-transform: uppercase;
+}
+body{
+    width: 100vw;
+    height: auto;
+    font-family: var(--ff-text-02);
+    background-color: var(--bg-body);
+}
+
+header {
+    width: 100vw;
+    height: 43.6rem;
+
+    background-color: var(--bg-header);
+    border-top: 1px solid var(--bg-header);
+    color: var(--fc-header);
+}
+.headerText {
+    width: clamp(30rem, 90%, 75rem);
+    height: 12.2rem;
+    margin: 10rem auto 34.5rem;
+    padding-left: 2rem;
+}
+.headerText h1{
+    font-size: 4.8rem;
+    margin-bottom: 1.8rem;
+}
+.headerText p {
+    font-size: 1.6rem;
+}
+
+form {
+    width: clamp(30rem, 100%, 75rem);
+    height: auto;
+    background-color: var(--bg-form);
+    margin: -11.3rem auto 0;
+    border-radius: 20px 20px 0 0;
+    padding: 3.4rem 6.4rem 0 6.4rem;
+}
+fieldset{
+    border: none;
+    margin-top: 3rem;
+}
+legend{
+    width: 100%;
+    font-size: 24px;
+    color:var(--fc-legend);
+    padding-bottom: 1.2rem;
+    border-bottom: 2px solid var(--bc-border);
+    margin-bottom: 1.5rem;
+}
+
+.fullname{
+    display: flex;  
+    gap: 2.2rem;
+}
+.fullname div {
+    width: 100%;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+}
+.input-wrapper label{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    
+}
+.input-wrapper label span{
+    margin-left: .8rem;
+    color:var(--fc-span);
+}
+.input-wrapper input {
+    width: 100%;
+    height: 5.6rem;
+
+    background-color:var(--bg-input);
+    border: 1px solid var(--bc-border);
+    border-radius: 8px;
+
+    padding: 1rem;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    color: var(--fc-input)
+}
+
+.time h2{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    margin: 1.5rem 0;
+}
+
+
+.date-mentoring{
+    width: clamp(30rem, 100%, 75rem);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2.5rem;
+}
+
+.date.input-wrapper:first-child {
+    width: 50%;
+}
+.input-wrapper.time input[type="time"] {
+    width: 100%; 
+    text-indent: 100%;
+    overflow: hidden;
+}
+div.date input[type="date"] {
+    text-indent: 100%;
+}
+.margin {
+    margin-bottom: 5.5rem;
+}
+
+footer{
+    width: clamp(30rem, 100%, 75rem);
+    height: 16rem;
+    margin: 0 auto 10rem;
+    padding: 0 5rem;
+    background-color: #535971;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer button{
+    width: 608px;
+    height: 56px;
+    background-color: #FF5374;
+    color: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+}

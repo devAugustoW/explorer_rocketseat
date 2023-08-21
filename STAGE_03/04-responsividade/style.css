@@ -1,0 +1,122 @@
+@charset "UTF_8";
+:root {
+    --ff-text: 'Epilogue', 'Sans serif';
+
+    --bg-body: #ECE9FD;
+
+    --fc-title-h1: #090039;
+    --fc-title-h3: #7158EF;
+
+    font-size: 62.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--bg-body);
+    font-family: var(--ff-text);
+    font-size: 1.6rem;
+    padding: 6rem 2.3rem 6.6rem;   
+}
+
+main {
+    width: clamp(25rem, 50%, 102rem);
+    height: auto;
+    margin: 0 auto;
+}
+.text h3 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 3.2rem; 
+    color: var(--fc-title);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+    margin-bottom: 1.5rem;    
+}
+.text h1 {
+    font-size: 4.0rem;
+    font-weight: 800;
+    line-height: 4.8rem;
+    color: var(--fc-title-h1);
+
+    margin-bottom: 1.5rem
+}
+.text p {
+    color: rgba(10, 0, 57, 0.64);
+    line-height: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+.text a {
+    color: var(--fc-title-h1);
+    transition: font-weight .1s;
+}
+.text a:hover {
+    font-weight: bold;
+}
+
+ul {
+    margin-top: 7.2rem;
+    list-style: none;
+}
+ul li {
+    max-width: 25.7rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+    color: var(--fc-title-h1);
+
+    display: flex;
+    align-items: center;
+    gap: 3.8rem;
+}
+ul li + li {
+    margin-top: 3.2rem;
+}
+ul li span {
+    font-size: 7.2rem;
+    font-weight: 800;
+    line-height: 8.0rem;
+    letter-spacing: -2px;
+    color: var(--fc-title-h1);
+}
+
+@media (min-width: 700px) {
+    body{
+        padding: 2rem;
+    }
+    main {
+        width: clamp(70rem, 100%, 102rem);
+        display: flex;
+    }
+
+    .text {
+        width: clamp(70rem, 100%, 80rem);
+        padding-top: 2rem;
+    }
+
+    .list {
+        width: clamp(70rem, 100%, 80rem);
+        padding-bottom: 5rem;
+
+        overflow: hidden;
+    }
+
+    ul {
+        display: inline-block;
+        width: 100%;
+        margin-left: 2rem;
+
+    }
+    ul li {
+        display: inline-block;
+        min-width: 100%;
+        gap: 5.3rem;
+        
+        display: flex;
+        align-items: center;
+    }
+    
+}

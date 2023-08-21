@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <script src="./js/main.js" defer type="module"></script>
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+
+    <div class="screen-error">
+        <h2>Digite somente números</h2>
+    </div>
+
+
+    <main class="screen1">
+        <h1>Cálculo de IMC</h1>
+
+        <div class="input-wrapp">
+            <label for="input-weight">Peso (kg)</label>
+            <input type="text" id="input-weight" >
+        </div>
+
+        <div class="input-wrapp">
+            <label for="input-height">Altura (m)</label>
+            <input type="text" id="input-height">
+        </div>
+
+        <button id="btnCalcular">Calcular IMC
+            <img src="assets/arrow.svg" alt="seta apontando para direita">
+        </button>
+    </main>
+
+
+    <div class="modal-container hide">
+        <div class="modal">
+            <img id="modalBtnClose" src="./assets/close.svg" alt="botao para fechar modal">
+            <h2 id="modalMessage">Seu IMC é de 28</h2>
+        </div>
+    </div>
+    
+</body>
+</html>
