@@ -86,11 +86,6 @@ Neste módulo veremos sobre: Conceitos de SPA (Single Page Application), trabalh
 ## [STAGE 07 - Git & Github](URL_do_link) 
 Neste módulo você aprenderá sobre: Git, uma ferramenta para controle de versões e como utilizar o Github para armazenar o código fonte do seu projeto, além de ser uma ótima stratégia de portfólio para mostrar para empresas e recrutadores. 
 
-### 💻 Projetos
-- [](URL_do_link)
-- [](URL_do_link)
-- [](URL_do_link)
-
 <br>
 
 ## [STAGE 08 - Backend](URL_do_link) 
@@ -112,3 +107,5 @@ Neste módulo será apresentado o ReactJS e construiremos o nosso front-end do p
 - [](URL_do_link)
   
 <br>
+
+## [STAGE 09 - Frontend](URL_do_link)
