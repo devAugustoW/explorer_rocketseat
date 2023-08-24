@@ -24,7 +24,8 @@
 O repositório conta com o projetos e desafios propostos durante o programa Explorer
 
 ## [STAGE 01 - Fundamentos da programação WEB](URL_do_link) 
-Neste módulo veremos conceitos básicos sobre rogramação: como e por que programar. Iremos entender o que é lógica, aprender várias dicas e até mesmo possíveis ações para melhorarmos esse ponto. Além disso, iremos abordar sobre o que é e como funciona a WEB e entender melhor os conceitos de Front-end e Back-end. 
+Neste módulo foi passado os conceitos fundamentais da programação web. 
+Compreendendo o funcionamento dinâmico da web e a distinção entra Front-end e Back-end.
 
 <br>
 
@@ -41,7 +42,7 @@ O stage 02 apresentou a estruturação de páginas web com HTML e estilização 
 <br>
 
 ## [STAGE 03 - Avançando no HTML e CSS](URL_do_link) 
-Os stage 03 está dividido em 3 partes: formulários e validações; responsividade; posicionamentos de elementos, animações e transições. Os projetos fazem uma mesclagem avançada de todo conteúdo juntamente com técnicas de responsividade: Box model; Flex layout, Grid Layout, Position, Media Query e funções CSS que auxiliam na responsividade da página.
+O stage 03 está dividido em 3 partes: formulários e validações; responsividade; posicionamentos de elementos, animações e transições. Os projetos fazem uma mesclagem avançada de todo conteúdo juntamente com técnicas de responsividade: Box model; Flex layout, Grid Layout, Position, Media Query e funções CSS que auxiliam na responsividade da página.
 
 ### 💻 Projetos
 - [Formulario Eventos](URL_do_link)
@@ -56,12 +57,25 @@ Os stage 03 está dividido em 3 partes: formulários e validações; responsivid
 <br>
 
 ## [STAGE 04 - Introdução aos conceitos de Javascript](URL_do_link) 
-Este módulo do curso apresenta o JavaScript e está dividido em duas partes. A primeira parte é dedicada aos conceitos fundamentais da linguagem JavaScript e como ela é utilizada para criar páginas web dinâmicas e interativas. A segunda parte deste módulo explora a importância da quebra de paradigmas, o raciocínio na resolução de problemas e a organização do pensamento lógico. Os desafios e exercícios a seguir envolvem a execução de função, manipulação de variáveis, estruturas condicionais, estruturas de repetição, concatenação, tipos de variáveis e manipulação de dados, com foco na resolução de problemas.
+Módulo de apresentação do JavaScript e está dividido em duas partes. A primeira parte é dedicada aos conceitos fundamentais da linguagem JavaScript e como ela é utilizada para criar páginas web dinâmicas e interativas. A segunda parte deste módulo explora a importância da quebra de paradigmas, o raciocínio na resolução de problemas e a organização do pensamento lógico. Os desafios e exercícios a seguir envolvem a execução de função, manipulação de variáveis, estruturas condicionais, estruturas de repetição, concatenação, tipos de variáveis e manipulação de dados, com foco na resolução de problemas.
 
+
+### Desafios
+- [Perguntando nome e mostrando mensagem](URL_do_link)
+- [Somar 2 númeors](URL_do_link)
+- [Operações matemáticas](URL_do_link)
+- [Calculando a média](URL_do_link)
+- [Lista de compras](URL_do_link)
+- [Jogo de advinhação](URL_do_link)
+- [Menu de opções](URL_do_link)
+- [Estruturando dados com objetos](URL_do_link)
+- [Cálculo de IMC](URL_do_link)
+- [Desafio 01](URL_do_link)
+- [Desafio 02](URL_do_link)
 <br>
 
 ## [STAGE 05 - Avançando no Javascript](URL_do_link) 
-Neste módulo veremos sobre como manipular o navegador utilizando a DOM, funções Callbacks, recursividade, princípios de Clean Code, ES6 Modules, padrão Factory, injeção de dependências e refatoração de código.
+O stage 05 abordou a manipulação do navegador utilizando a DOM, funções Callbacks, recursividade, princípios de Clean Code, ES6 Modules, padrão Factory, injeção de dependências e refatoração de código.
 
 ### 💻 Projetos e Desafios
 - [Jogo da Adivinhação](URL_do_link)
@@ -73,7 +87,7 @@ Neste módulo veremos sobre como manipular o navegador utilizando a DOM, funçõ
 <br>
 
 ## [STAGE 06 - Javascript antes do framework](URL_do_link) 
-Neste módulo veremos sobre: Conceitos de SPA (Single Page Application), trabalharemos com eventos no JavaScript, assincronismo, promises, conceitos de POO (Programação Orientada a Objetos) como classes, herança e polimorfismo. Também traremos conceitos sobre imutabilidade, trataremos erros da aplicação utilizando métodos try, catch e throw, trabalharemos com localStorage, consumiremos API do Github e muito mais. 
+Neste módulo foi abordado os conceitos de SPA (Single Page Application), eventos no JavaScript, assincronismo, promises, conceitos de POO (Programação Orientada a Objetos) como classes, herança e polimorfismo. Foi tratado tambpém conceitos sobre imutabilidade, erros da aplicação utilizando métodos try, catch e throw, persistência de dados com localStorage e o consumo de uma API. 
 
 ### 💻 Projetos
 - [SPA](URL_do_link)
@@ -84,28 +98,36 @@ Neste módulo veremos sobre: Conceitos de SPA (Single Page Application), trabalh
 <br>
 
 ## [STAGE 07 - Git & Github](URL_do_link) 
-Neste módulo você aprenderá sobre: Git, uma ferramenta para controle de versões e como utilizar o Github para armazenar o código fonte do seu projeto, além de ser uma ótima stratégia de portfólio para mostrar para empresas e recrutadores. 
+O stage 06 trouxe o Git, uma ferramenta que gerencia o controle de versões da aplicação, e instruiu como utilizar o Github como plataforma para armazenar o código fonte de projetos.
 
 <br>
 
 ## [STAGE 08 - Backend](URL_do_link) 
-Neste módulo veremos sobre: O que é o Node.js como ele funciona e suas vantagens. Construiremos uma API completa utilizando Node.js e Express. Utilizaremos o Insomnia para cadastrar nossas rotas e verificar os status codes das esmas. Criaremos um banco de dados utilizando SQLite, anipularemos o nosso DB utilizando a ferramenta Beekeper Studio juntamente com o Query Builder Knex.js. 
+Nesta etapa, adquiri conhecimentos fundamentais sobre o Node.js, compreendendo sua estrutura e vantagens. Implementei uma API completa com Node.js e Express, destacando a importância do teste das rotas e status codes por meio do Insomnia. Aprofundei-me na manipulação de bancos de dados usando SQLite e na aplicação do Query Builder Knex.js para otimizar a interação com o banco.
 
 ### 💻 Projetos
 - [](URL_do_link)
-- [](URL_do_link)
-- [](URL_do_link)
-  
-<br>
 
-## [STAGE 08 - Frontend](URL_do_link) 
-Neste módulo será apresentado o ReactJS e construiremos o nosso front-end do projeto RocketNotes. Além disso, aprenderemos: tilizar o Vite, estruturar arquivos e pastas, estilizar o projeto utilizando styled-components, navegação com React Router e muito mais. 
-
-### 💻 Projetos
-- [](URL_do_link)
-- [](URL_do_link)
-- [](URL_do_link)
   
 <br>
 
 ## [STAGE 09 - Frontend](URL_do_link)
+No módulo de Frontend, fui apresentado ao ReactJS e construí a interface do projeto RocketNotes. Utilizei o Vite como ambiente de desenvolvimento, estruturei o projeto com atenção à organização de arquivos e pastas. A estilização foi aprimorada usando a abordagem styled-components, enquanto a navegação na aplicação foi implementada de forma eficaz com o React Router.
+
+### 💻 Projeto
+- [](URL_do_link)
+
+<br>
+
+## [STAGE 10 - API Restful](URL_do_link)
+Este módulo enfocou a integração cuidadosa entre o back-end e o front-end da aplicação. Em três etapas distintas, implementei funcionalidades essenciais para garantir um fluxo de dados correto e consistente entre as partes.
+
+
+### 💻 Projeto
+- [](URL_do_link)
+
+<br>
+
+## [STAGE 11 - Testes Automatizados](URL_do_link)
+Nesta etapa final, aprofundei-me nos testes automatizados, utilizando a ferramenta Jest. Adquiri habilidades para verificar a integridade e funcionalidade do código, assegurando uma base sólida para o desenvolvimento contínuo.
+
