@@ -23,40 +23,40 @@
 ## Conteúdo do repositório
 O repositório conta com o projetos e desafios propostos durante o programa Explorer
 
-## [STAGE 01 - Fundamentos da programação WEB](URL_do_link) 
+## [STAGE 01 - Fundamentos da programação WEB](https://github.com/devAugustoW/explorer_rocketseat/tree/main/STAGE_01) 
 Neste módulo foi passado os conceitos fundamentais da programação web. 
 Compreendendo o funcionamento dinâmico da web e a distinção entra Front-end e Back-end.
 
 <br>
 
-## [STAGE 02 - Introdução ao HTML e CSS](URL_do_link) 
+## [STAGE 02 - Introdução ao HTML e CSS](https://github.com/devAugustoW/explorer_rocketseat/tree/main/STAGE_02) 
 O stage 02 apresentou a estruturação de páginas web com HTML e estilização visual com CSS. Foi abordado o uso de tags para estruturar o conteúdo, atributos HTML para imagens e links, elementos semânticos para organizar o conteúdo de forma clara e organizada, seletores de classe e ID para estilização visual. Também foi utilizado técnicas de pré-carregamento de fontes do Google Fonts, responsividade da página, acessibilidade, uso de unidades de medida relativas e flexbox para posicionamento de elementos.
 
 ### 💻 Projetos
-- [Móveis Customizados](URL_do_link)
-- [Flutuar](URL_do_link)
-- [Treine-me](URL_do_link)
-- [Acessibilidade](URL_do_link)
-- [Rocket.sect](URL_do_link)
+- [Móveis Customizados](https://devaugustow.github.io/explorer_rocketseat/STAGE_02/01_moveis_customizados/index.html)
+- [Flutuar](https://devaugustow.github.io/explorer_rocketseat/STAGE_02/03_flutuar/index.html)
+- [Treine-me](https://devaugustow.github.io/explorer_rocketseat/STAGE_02/04_treine-me/index.htmlk)
+- [Acessibilidade](https://devaugustow.github.io/explorer_rocketseat/STAGE_02/06_semantica_e_acessibilidade/index.htmlnk)
+- [Rocket.sect](https://devaugustow.github.io/explorer_rocketseat/STAGE_02/07_rocket_sect/index.html)
 
 <br>
 
-## [STAGE 03 - Avançando no HTML e CSS](URL_do_link) 
+## [STAGE 03 - Avançando no HTML e CSS](https://github.com/devAugustoW/explorer_rocketseat/tree/main/STAGE_03) 
 O stage 03 está dividido em 3 partes: formulários e validações; responsividade; posicionamentos de elementos, animações e transições. Os projetos fazem uma mesclagem avançada de todo conteúdo juntamente com técnicas de responsividade: Box model; Flex layout, Grid Layout, Position, Media Query e funções CSS que auxiliam na responsividade da página.
 
 ### 💻 Projetos
-- [Formulario Eventos](URL_do_link)
-- [Formulário Mentoria](URL_do_link)
-- [Formulário Avaliação](URL_do_link)
-- [Responsividade](URL_do_link)
-- [Cheesecake](URL_do_link)
+- [Formulario Eventos](https://devaugustow.github.io/explorer_rocketseat/STAGE_03/01_formulario_eventos/index.html)
+- [Formulário Mentoria](https://devaugustow.github.io/explorer_rocketseat/STAGE_03/02_formulario_mentor/index.html)
+- [Formulário Avaliação](https://devaugustow.github.io/explorer_rocketseat/STAGE_03/03_formulario_avaliacao/index.html)
+- [Responsividade](https://devaugustow.github.io/explorer_rocketseat/STAGE_03/04-responsividade/index.html)
+- [Cheesecake](https://devaugustow.github.io/explorer_rocketseat/STAGE_03/05_reforcando_a_responsividade/index.html)
 - [Space Cream](URL_do_link)
 - [Space Cream](URL_do_link)
 - [Jardim das Toupeiras](URL_do_link)
 
 <br>
 
-## [STAGE 04 - Introdução aos conceitos de Javascript](URL_do_link) 
+## [STAGE 04 - Introdução aos conceitos de Javascript](https://github.com/devAugustoW/explorer_rocketseat/tree/main/STAGE_04) 
 Módulo de apresentação do JavaScript e está dividido em duas partes. A primeira parte é dedicada aos conceitos fundamentais da linguagem JavaScript e como ela é utilizada para criar páginas web dinâmicas e interativas. A segunda parte deste módulo explora a importância da quebra de paradigmas, o raciocínio na resolução de problemas e a organização do pensamento lógico. Os desafios e exercícios a seguir envolvem a execução de função, manipulação de variáveis, estruturas condicionais, estruturas de repetição, concatenação, tipos de variáveis e manipulação de dados, com foco na resolução de problemas.
 
 
@@ -74,7 +74,7 @@ Módulo de apresentação do JavaScript e está dividido em duas partes. A prime
 - [Desafio 02](URL_do_link)
 <br>
 
-## [STAGE 05 - Avançando no Javascript](URL_do_link) 
+## [STAGE 05 - Avançando no Javascript](https://github.com/devAugustoW/explorer_rocketseat/tree/main/STAGE_05) 
 O stage 05 abordou a manipulação do navegador utilizando a DOM, funções Callbacks, recursividade, princípios de Clean Code, ES6 Modules, padrão Factory, injeção de dependências e refatoração de código.
 
 ### 💻 Projetos e Desafios
@@ -86,7 +86,7 @@ O stage 05 abordou a manipulação do navegador utilizando a DOM, funções Call
 
 <br>
 
-## [STAGE 06 - Javascript antes do framework](URL_do_link) 
+## [STAGE 06 - Javascript antes do framework](https://github.com/devAugustoW/explorer_rocketseat/tree/main/STAGE_06) 
 Neste módulo foi abordado os conceitos de SPA (Single Page Application), eventos no JavaScript, assincronismo, promises, conceitos de POO (Programação Orientada a Objetos) como classes, herança e polimorfismo. Foi tratado tambpém conceitos sobre imutabilidade, erros da aplicação utilizando métodos try, catch e throw, persistência de dados com localStorage e o consumo de uma API. 
 
 ### 💻 Projetos
@@ -97,12 +97,12 @@ Neste módulo foi abordado os conceitos de SPA (Single Page Application), evento
 
 <br>
 
-## [STAGE 07 - Git & Github](URL_do_link) 
+## [STAGE 07 - Git & Github](https://github.com/devAugustoW/explorer_rocketseat/tree/main/STAGE_07) 
 O stage 06 trouxe o Git, uma ferramenta que gerencia o controle de versões da aplicação, e instruiu como utilizar o Github como plataforma para armazenar o código fonte de projetos.
 
 <br>
 
-## [STAGE 08 - Backend](URL_do_link) 
+## [STAGE 08 - Backend](https://github.com/devAugustoW/explorer_rocketseat/tree/main/STAGE_08) 
 Nesta etapa, adquiri conhecimentos fundamentais sobre o Node.js, compreendendo sua estrutura e vantagens. Implementei uma API completa com Node.js e Express, destacando a importância do teste das rotas e status codes por meio do Insomnia. Aprofundei-me na manipulação de bancos de dados usando SQLite e na aplicação do Query Builder Knex.js para otimizar a interação com o banco.
 
 ### 💻 Projetos
@@ -111,7 +111,7 @@ Nesta etapa, adquiri conhecimentos fundamentais sobre o Node.js, compreendendo s
   
 <br>
 
-## [STAGE 09 - Frontend](URL_do_link)
+## [STAGE 09 - Frontend](https://github.com/devAugustoW/explorer_rocketseat/tree/main/STAGE_09)
 No módulo de Frontend, fui apresentado ao ReactJS e construí a interface do projeto RocketNotes. Utilizei o Vite como ambiente de desenvolvimento, estruturei o projeto com atenção à organização de arquivos e pastas. A estilização foi aprimorada usando a abordagem styled-components, enquanto a navegação na aplicação foi implementada de forma eficaz com o React Router.
 
 ### 💻 Projeto
@@ -119,7 +119,7 @@ No módulo de Frontend, fui apresentado ao ReactJS e construí a interface do pr
 
 <br>
 
-## [STAGE 10 - API Restful](URL_do_link)
+## [STAGE 10 - API Restful](https://github.com/devAugustoW/explorer_rocketseat/tree/main/STAGE_10)
 Este módulo enfocou a integração cuidadosa entre o back-end e o front-end da aplicação. Em três etapas distintas, implementei funcionalidades essenciais para garantir um fluxo de dados correto e consistente entre as partes.
 
 
@@ -128,6 +128,6 @@ Este módulo enfocou a integração cuidadosa entre o back-end e o front-end da 
 
 <br>
 
-## [STAGE 11 - Testes Automatizados](URL_do_link)
+## [STAGE 11 - Testes Automatizados](https://github.com/devAugustoW/explorer_rocketseat/tree/main/STAGE_11)
 Nesta etapa final, aprofundei-me nos testes automatizados, utilizando a ferramenta Jest. Adquiri habilidades para verificar a integridade e funcionalidade do código, assegurando uma base sólida para o desenvolvimento contínuo.
 
